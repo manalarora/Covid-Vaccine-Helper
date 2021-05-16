@@ -6,7 +6,7 @@ import requests
 
 today = datetime.datetime.today()
 DATE = f"{today.day}-{today.month}-{today.year}"
-DISTRICT_IDS = [149,144]
+DISTRICT_IDS = [] 
 PINCODES = [201301]
 headers = {
     'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36'
